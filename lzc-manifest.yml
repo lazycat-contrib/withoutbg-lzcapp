@@ -6,7 +6,7 @@ application:
       backend: http://withoutbg:8000/
 services:
   withoutbg:
-    # upstream: docker.io/withoutbg/withoutbg-openweights-v3-service-cpu:latest@sha256:292b7568c48281ecd39e755d49c39bb9d21e6820cfeac8aa75af74e6e9003be0
-    image: docker.1ms.run/withoutbg/withoutbg-openweights-v3-service-cpu:latest@sha256:292b7568c48281ecd39e755d49c39bb9d21e6820cfeac8aa75af74e6e9003be0
+    # upstream: docker.io/withoutbg/withoutbg-openweights-v3-service-cpu:latest@sha256:5356915b7403d0b681bc07e10e62e3cc24d06dd76fef8b9ff5a4d1b058cb9a38
+    image: docker.1ms.run/withoutbg/withoutbg-openweights-v3-service-cpu:latest@sha256:5356915b7403d0b681bc07e10e62e3cc24d06dd76fef8b9ff5a4d1b058cb9a38
 usage: |
   Open the application URL to access the background-removal service and API. The CPU open-weights image is protected by LazyCat authentication. Upstream publishes only the mutable latest tag, so releases are driven by digest changes rather than tag versions.
